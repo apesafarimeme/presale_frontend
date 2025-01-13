@@ -9,7 +9,6 @@ type DailyPrice = {
 
 const calculateDailyPrices = (): DailyPrice[] => {
   const prices: DailyPrice[] = [];
-  //const growthRate = Math.pow(0.05 / 0.01, 1 / 89); // Growth rate for 90 days
 
   for (let day = 0; day < 30; day++) {
     const price = 10_000_000_000 / tokensPerDollar[day]; // * Math.pow(growthRate, day);
