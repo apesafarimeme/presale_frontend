@@ -1,0 +1,10 @@
+// src/config/presale.ts
+export const PRESALE_CONFIG = {
+  START_TIME: 1736899200, // January 15, 2025 00:00:00 UTC
+  END_TIME: 1739491200, // February 14, 2025 00:00:00 UTC
+  DURATION_DAYS: 30,
+  PRESALE_CAP: 418_102_933.2 as number,
+  INITIAL_PRICE_USD: 0.001,
+  FINAL_PRICE_USD: 0.01,
+  TOKEN_DECIMALS: 18,
+};
